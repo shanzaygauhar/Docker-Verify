@@ -9,3 +9,10 @@ Test deployed "nginx" container by writing a shell script.
  - It uses curl to receive a response from the container
  - It verifies that the response is the same as you have written in the previous assignment. 
  - If there is an error during these steps, the script gives a helpful message so that the user can act upon it and proceed to the next steps.
+ 
+ ## Execution
+ Make sure you have a repository on Dockerhub before executing this code. 
+ 
+ Clone/Download the project repository. To execute this code, enter the following command in terminal in project directory.
+ 
+ `bash verify.sh`
